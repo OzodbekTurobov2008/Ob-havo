@@ -75,7 +75,7 @@ def get_weather(city_name):
     moon_phase = get_moon_phase(today_date)
 
     return {
-        "date": today_date.strftime("%d Avgust"),
+        "date": today_date.strftime("%d %B %Y"),
         "current_temp": int(current_temp),
         "humidity": humidity,
         "pressure": int(pressure),
