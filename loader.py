@@ -8,6 +8,7 @@ ADMINS = config.ADMINS
 TOKEN = config.BOT_TOKEN
 CHANNELS = config.CHANNELS
 
+commands = ["/start", "/about", "/help", "/admin"]
 
 bot = Bot(TOKEN)
 db = Database(path_to_db="main.db")

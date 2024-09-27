@@ -12,3 +12,12 @@ admin_button = ReplyKeyboardMarkup(
    resize_keyboard=True,
    input_field_placeholder="Menudan birini tanlang"
 )
+
+admin_button1 = ReplyKeyboardMarkup(
+    keyboard=[
+        [
+            KeyboardButton(text="👨‍💼Admin"),        
+        ]      
+    ],
+  resize_keyboard=True
+)

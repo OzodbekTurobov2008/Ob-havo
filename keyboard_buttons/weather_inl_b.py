@@ -1,4 +1,4 @@
-from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, KeyboardButton
 
 weather_inl_button = InlineKeyboardMarkup(
     inline_keyboard=[
@@ -15,7 +15,7 @@ weather_inl_button = InlineKeyboardMarkup(
 sozlamalar = InlineKeyboardMarkup(
     inline_keyboard=[
         [InlineKeyboardButton(text="📆 1 kunlik ma'lumot", callback_data="kun")],
-        [InlineKeyboardButton(text="📆 kunlik ma'lumot", callback_data="kunlik")],
+        [InlineKeyboardButton(text="📆 6 kunlik ma'lumot", callback_data="kunlik")],
         [InlineKeyboardButton(text="⚙️Sozlamalar", callback_data="sozlamalar")],
     ]
 )
@@ -24,6 +24,7 @@ sozlamalarni_ichi = InlineKeyboardMarkup(
     inline_keyboard=[
         [InlineKeyboardButton(text="📍Shaharni o'zgartirish", callback_data="shahar")],
         [InlineKeyboardButton(text="🔙Ortga qaytish", callback_data="ortga")],
+
     ]
 )
 
